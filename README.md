@@ -1,7 +1,16 @@
 <h1 align='center'>AE2235-I-installation</h1>
-<h4 align='center'>A guide to installing the Python environment using pip instead of Anaconda.</h4>
 
-## Method 1: the quick way
+This guide will help you install the `control` and `PyDSTool` Python packages using `pip` instead of Anaconda.
+
+## Table of contents <!-- omit from toc -->
+- [Method 1: The quick way](#method-1-the-quick-way)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [Method 2: The thorough way](#method-2-the-thorough-way)
+
+
+## Method 1: The quick way
 
 This method is intended to be quick and easy to follow, at the expense of explanations accompanying the instructions. Note that this method is Windows-specific.
 
@@ -50,3 +59,7 @@ Open `39` as a folder within VS Code, and select the Python interpreter located 
 Use the `39` installation for any code that requires `PyDSTool` (i.e., the fridge example). Use `3.10` for all other code.
 
 Ensure that the virtual environments are properly activated when launching VS Code, and that you are not using the default Code Runner Python executor `python -u`.
+
+## Method 2: The thorough way
+
+TODO: write.
